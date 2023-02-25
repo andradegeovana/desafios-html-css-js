@@ -1,51 +1,100 @@
-*{border: 1px solid red;}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+*{margin: 0;}
 
 .container {
     display: flex;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
     justify-content: center;
-}
-
-button{
-    background-color: hsl(158, 36%, 37%);
-    border: none;
-    margin: 20px;
-}
-
-.button{
-    font-family: Montserrat;
-    font-weight: 500;
-    align-items: center;
-    justify-content: center;
-}
-
-.content {
-    margin: 10px;
-}
-
-#categoria{
-    font-family: Montserrat;
-    font-weight: 700;
+    background-color: hsl(30, 38%, 92%);
 }
 
 img{
     width: 300px;
     height: 450px;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
 }
 
 .box{
     display: flex;
     width: 600px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content {
+    font-size: 14px;
+}
+
+.categoria{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 40px 30px 30px 30px;
+}
+
+.titulo{
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.titulo h1{
+    font-size: 700;
+    font-family: 'Fraunces', serif;
+}
+
+.descricao{
+    margin: 30px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .price{
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
 }
 
 .price h1{
-    margin-right: 10px;
+    margin-right: 50px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+}
+
+svg{
+    padding: 10px 10px 10px 0;
+}
+
+button:hover{
+    background-color: hsl(158, 36%, 26%);
+}
+
+.button{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
