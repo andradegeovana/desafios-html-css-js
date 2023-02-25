@@ -1,3 +1,51 @@
+*{border: 1px solid red;}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button{
-    background-color: aquamarine;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    margin: 20px;
+}
+
+.button{
+    font-family: Montserrat;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: 10px;
+}
+
+#categoria{
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+}
+
+.box{
+    display: flex;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price h1{
+    margin-right: 10px;
 }
