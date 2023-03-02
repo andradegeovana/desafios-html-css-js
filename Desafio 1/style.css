@@ -34,26 +34,29 @@ img{
 .categoria{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin: 40px 30px 30px 30px;
+    margin: 30px 30px 15px 30px;
+    color: rgb(146, 145, 145);
 }
 
 .titulo{
     margin: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .titulo h1{
-    font-size: 700;
+    font-size: 32px;
     font-family: 'Fraunces', serif;
 }
 
 .descricao{
     margin: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    color: rgb(146, 145, 145);
 }
 
 .price{
@@ -61,8 +64,13 @@ img{
     align-items: center;
     margin: 30px;
     font-family: 'Montserrat', sans-serif;
+    color: rgb(146, 145, 145);
     font-weight: 700;
     margin-top: 30px;
+}
+
+.price p{
+    text-decoration: line-through;
 }
 
 .price h1{
@@ -79,7 +87,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 50px 0 50px;
+    padding: 5px 60px 5px 60px;
 }
 
 svg{
