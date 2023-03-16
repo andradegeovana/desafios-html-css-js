@@ -1,0 +1,35 @@
+*{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+.df {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+}
+
+.informacoes {
+    flex-direction: column;
+    margin: 50px;
+}
+
+.nome {
+    flex-direction: column;
+}
+
+.idade {
+    flex-direction: column;
+}
